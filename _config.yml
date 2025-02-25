@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Shwetha
 middle_name: 
 last_name: Somasundaram
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -265,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Somasundaram, S., Somasundaram, Shwetha, S]
+  first_name: [Shwetha, S., Shwetha Somasundaram, S]
 
   style: apa
   locale: en
