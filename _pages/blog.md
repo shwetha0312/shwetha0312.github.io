@@ -2,11 +2,11 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: false
+nav: true
 nav_order: 4
 pagination:
   enabled: true
-  collection: posts
+  collection: posts_blog
   permalink: /page/:num/
   per_page: 5
   sort_field: date
