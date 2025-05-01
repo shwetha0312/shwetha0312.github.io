@@ -400,9 +400,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "posts_blog-cool-results-with-pld",
-          title: 'Cool results with PLD+!',
-          description: "an example of a blog post with some code",
+          section: "News",},{id: "posts_blog-",
+          title: '',
+          description: "",
           section: "Posts_blog",handler: () => {
               window.location.href = "/blog/2025-04-20-pldplus/";
             },},{id: "projects-project-1",
