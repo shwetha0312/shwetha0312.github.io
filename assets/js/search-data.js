@@ -400,9 +400,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "posts_blog-",
-          title: '',
-          description: "",
+          section: "News",},{id: "posts_blog-pld-accelerating-llm-inference-by-leveraging-language-model-artifacts",
+          title: 'PLD+ - Accelerating LLM inference by leveraging Language Model Artifacts',
+          description: "an example of a blog post with some code",
           section: "Posts_blog",handler: () => {
               window.location.href = "/blog/2025-04-20-pldplus/";
             },},{id: "projects-project-1",
