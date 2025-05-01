@@ -402,7 +402,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "posts_blog-pld-accelerating-llm-inference-by-leveraging-language-model-artifacts",
           title: 'PLD+ - Accelerating LLM inference by leveraging Language Model Artifacts',
-          description: "an example of a blog post with some code",
+          description: "",
           section: "Posts_blog",handler: () => {
               window.location.href = "/blog/2025-04-20-pldplus/";
             },},{id: "projects-project-1",
