@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # rendered manually in the content below instead, right after the bio
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: # leave blank to include all the news in the `_news` folder
 
@@ -25,13 +25,17 @@ latest_posts:
 
 I am currently working as an Applied Scientist II at [Glance](https://glance.com/), where I develop personalized fashion intelligence using LLMs, VLMs, and user interaction data. My work spans mining user engagement signals to generate synthetic preference data for fine-tuning open-source LLMs, developing semantic ID representations for LLM-based generative recommendation, and migrating production pipelines from proprietary APIs to self-hosted open-source LLMs.
 
-Previously, I spent 3.5 years as a Research Associate II at the _Multimodal Content Experiences Lab_ at [Adobe Research](https://research.adobe.com/), where I primarily worked with [Dr. Apoorv Saxena](https://apoorvumang.github.io/) and [Dr. Balaji Srinivasan](https://research.adobe.com/person/balaji-vasan-srinivasan/) on leveraging Large Language models (LLMs)/ Multimodal Large Language Models (MLLMs) for document experience projects for Adobe Acrobat and Adobe Express. I worked across a wide range of research areas — retrieval and attribution for document question answering, document stylization and transformation, graphic design generation, and speculative decoding — publishing at top NLP conferences (EMNLP, ACL, EACL, NAACL) and filing multiple patents. Notably, I co-developed a training-free, token-level attribution algorithm with colleagues that leverages the contextual nature of LLM embeddings (published at ACL Findings 2024), and led its integration for contract entity attribution in the Adobe Acrobat AI Assistant — a capability [highlighted by Adobe's CEO in a Fox Business interview](https://www.foxbusiness.com/video/6368324084112).
+Previously, I spent 3.5 years as a Research Associate II at the _Multimodal Content Experiences Lab_ at [Adobe Research](https://research.adobe.com/), where I primarily worked with [Dr. Apoorv Saxena](https://apoorvumang.github.io/) and [Dr. Balaji Srinivasan](https://research.adobe.com/person/balaji-vasan-srinivasan/) on leveraging Large Language Models (LLMs)/Multimodal Large Language Models (MLLMs) for document experience projects for Adobe Acrobat and Adobe Express. I worked across a wide range of research areas — retrieval and attribution for document question answering, document stylization and transformation, graphic design generation, and speculative decoding — publishing at top NLP conferences (EMNLP, ACL, EACL, NAACL) and filing multiple patents. Notably, I co-developed a training-free, token-level attribution algorithm with colleagues that leverages the contextual nature of LLM embeddings (published at ACL Findings 2024), and co-developed its integration for contract entity attribution in the Adobe Acrobat AI Assistant — a capability [highlighted by Adobe's CEO in a Fox Business interview](https://www.foxbusiness.com/video/6368324084112).
 
 A common thread across this work has been using LLM internals — hidden states, attention, and activations — to understand and steer model behavior, most recently in [ContextFocus](https://arxiv.org/abs/2601.04131), an activation steering method for improving context faithfulness in LLMs. I’m increasingly drawn to this direction and am looking to deepen my work in AI safety and interpretability research.
 
-I completed my bachelor’s thesis under the supervision of [Prof. N Venkateswaran](https://www.ssn.edu.in/staff-members/dr-n-venkateswaran/) at SSN College of Engineering. My project focused on the road object detection from radar sensor data using machine learning and deep learning object detection techniques. During my undergraduate studies, I also explored the estimation of tracer kinetic parameters from undersampled DCE-MRI data, under the supervision of [Dr. Phaneendra Yalavarthy](http://cds.iisc.ac.in/faculty/yalavarthy/) at the [Medical Imaging Lab](http://cds.iisc.ac.in/faculty/yalavarthy/MIG/index.html), Indian Institute of Science, Bangalore.
+I completed my bachelor’s thesis under the supervision of [Prof. N Venkateswaran](https://www.ssn.edu.in/staff-members/dr-n-venkateswaran/) at SSN College of Engineering. My project focused on road object detection from radar sensor data using machine learning and deep learning object detection techniques. During my undergraduate studies, I also explored the estimation of tracer kinetic parameters from undersampled DCE-MRI data, under the supervision of [Dr. Phaneendra Yalavarthy](http://cds.iisc.ac.in/faculty/yalavarthy/) at the [Medical Imaging Lab](http://cds.iisc.ac.in/faculty/yalavarthy/MIG/index.html), Indian Institute of Science, Bangalore.
 
 If you'd like to know more about my work or discuss potential collaborations, please check out my [CV](https://drive.google.com/file/d/1g8cMt-ZXZrlr51qxeZnOraboziLpAcJF/view?usp=share_link). I'm always open to new opportunities and interesting conversations!
+
+<h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
+
+{% include news.liquid limit=true %}
 
 ## Publications {#pubid}
 
