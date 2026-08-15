@@ -11,6 +11,7 @@ nav_order: 2
 <div class="patents">
 
 {%- for y in page.years %}
+
   <h2 class="year">{{y}}</h2>
   {% bibliography -f patents -q @*[year={{y}}]* %}
 {% endfor %}
