@@ -8,14 +8,27 @@
   abstract="To reduce the latency associated with autoretrogressive LLM inference, speculative decoding has emerged as a novel decoding paradigm, where future tokens are drafted and verified in parallel. However, the practical deployment of speculative decoding is hindered by its requirements for additional computational resources and fine-tuning, which limits its out-of-the-box usability. To address these challenges, we present PLD+, a suite of novel algorithms developed to accelerate the inference process of LLMs, particularly for input-guided tasks. These tasks, which include code editing, text editing, summarization, etc., often feature outputs with substantial overlap with their inputs-an attribute PLD+ is designed to exploit. PLD+ also leverages the artifacts (attention and hidden states) generated during inference to accelerate inference speed. We test our approach on five input-guided tasks and through extensive experiments we find that PLD+ outperforms all tuning-free approaches. In the greedy setting, it even outperforms the state-of-the-art tuning-dependent approach EAGLE on four of the tasks. (by a margin of upto 2.31 in terms of avg. speedup). Our approach is tuning free, does not require any additional compute and can easily be used for accelerating inference of any LLM."
 }
 
-@article{jaisankar2024postdoc,
+@inproceedings{jaisankar2025postdoc,
   abbr={AAAI 2025},
-  title={PostDoc: Generating Poster from a Long Multimodal Document Using Deep Submodular Optimization},
-  author={Jaisankar, Vijay and Bandyopadhyay, Sambaran and Vyas, Kalp and Chaitanya, Varre and Somasundaram, Shwetha},
-  journal={arXiv preprint arXiv:2405.20213},
-  year={2024},
-  pdf={https://arxiv.org/pdf/2405.20213},
+  title={Deep Submodular Optimization and LLM for Multimodal Content Extraction and Automatic Poster Generation from Long Document},
+  author={Jaisankar, Vijay and Bandyopadhyay, Sambaran and Vyas, Kalp and Chaitanya, Varre Suman and Somasundaram, Shwetha},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={23},
+  pages={24221--24229},
+  year={2025},
+  pdf={https://doi.org/10.1609/aaai.v39i23.34598},
   abstract="A poster from a long input document can be considered as a one-page easy-to-read multimodal (text and images) summary presented on a nice template with good design elements. Automatic transformation of a long document into a poster is a very less studied but challenging task. It involves content summarization of the input document followed by template generation and harmonization. In this work, we propose a novel deep submodular function which can be trained on ground truth summaries to extract multimodal content from the document and explicitly ensures good coverage, diversity and alignment of text and images. Then, we use an LLM based paraphraser and propose to generate a template with various design aspects conditioned on the input content. We show the merits of our approach through extensive automated and human evaluations."
+}
+
+@article{anand2026contextfocus,
+  abbr={Preprint},
+  title={ContextFocus: Activation Steering for Contextual Faithfulness in Large Language Models},
+  author={Anand, Nikhil and Somasundaram, Shwetha and Phukan, Anirudh and Saxena, Apoorv and Mukherjee, Koyel},
+  journal={arXiv preprint arXiv:2601.04131},
+  year={2026},
+  pdf={https://arxiv.org/abs/2601.04131},
+  abstract="Large Language Models (LLMs) encode vast amounts of parametric knowledge during pre-training. As world knowledge evolves, effective deployment increasingly depends on their ability to faithfully follow externally retrieved context. When such evidence conflicts with the model's internal knowledge, LLMs often default to memorized facts, producing unfaithful outputs. In this work, we introduce ContextFocus, a lightweight activation steering approach that improves context faithfulness in such knowledge-conflict settings while preserving fluency and efficiency. Unlike prior approaches, our solution requires no model finetuning and incurs minimal inference-time overhead, making it highly efficient. We evaluate ContextFocus on the ConFiQA benchmark, comparing it against strong baselines including ContextDPO, COIECD, and prompting-based methods. Furthermore, we show that our method is complementary to prompting strategies and remains effective on larger models. Extensive experiments show that ContextFocus significantly improves contextual-faithfulness. Our results highlight the effectiveness, robustness, and efficiency of ContextFocus in improving contextual-faithfulness of LLM outputs."
 }
 
 @inproceedings{phukan2024peering,

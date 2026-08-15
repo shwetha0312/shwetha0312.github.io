@@ -1,14 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - shwetha0312
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - shwetha0312/DCE_MRI
